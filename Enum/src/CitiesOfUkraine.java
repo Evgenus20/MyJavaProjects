@@ -1,4 +1,13 @@
 public class CitiesOfUkraine {
+ /*   public void noName(CityNames getCityNames){
+        CityNames[] cityNames = CityNames.values();
+        for(CityNames i : cityNames){
+            if (getCityNames != cityNames[i]) {
+                System.out.println("");
+            }
+        }
+    }*/
+
 
     CitiesOfUkraine(CityNames cityNames){
         switch(cityNames){
@@ -19,5 +28,8 @@ public class CitiesOfUkraine {
             break;
 
         }
+
     }
+
+
 }
